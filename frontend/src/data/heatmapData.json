@@ -3,18 +3,18 @@
     "name": "Drink Water",
     "color": "#39d353",
     "data": [
-      { "date": "2024/01/01", "count": 1 },
-      { "date": "2024/01/02", "count": 1 },
-      { "date": "2024/01/04", "count": 1 }
+      { "date": "2026/01/01", "count": 1 },
+      { "date": "2026/01/02", "count": 1 },
+      { "date": "2026/01/04", "count": 1 }
     ]
   },
   {
     "name": "Morning Run",
     "color": "#0077b6",
     "data": [
-      { "date": "2024/01/01", "count": 1 },
-      { "date": "2024/01/03", "count": 1 },
-      { "date": "2024/01/05", "count": 1 }
+      { "date": "2026/01/01", "count": 1 },
+      { "date": "2026/01/03", "count": 1 },
+      { "date": "2026/01/05", "count": 1 }
     ]
   }
 ]
