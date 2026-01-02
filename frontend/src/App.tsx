@@ -1,15 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navigation from './components/Navigation'
+import Habits from './pages/Habits'
+import HabitTracker from './pages/HabitTracker'
+import { Routes, Route } from 'react-router'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="min-h-screen bg-[#0d1117] text-[#c9d1d9] font-sans">
+        <Navigation/>
+
+        <main className="max-w-6xl mx-auto p-8">
+          <Routes>
+            <Route index element={<HabitTracker />} />
+            <Route path="habits" element={<Habits />} />
+          </Routes>
+        </main>
+      </div>
+
     </>
   )
 }
